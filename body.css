@@ -1,0 +1,97 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #a4a4a4;
+    margin: 50p;
+    padding: 150px;
+}
+
+.app {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: rgb(212, 206, 206);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 35px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 75%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    word-wrap: break-word;
+}
+
+button {
+    padding: 5px 40px;
+    font-size: 14px;
+    background-color: #797979;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+
+.columnas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.columna {
+    width: 30%;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 20px;
+    word-wrap: break-word;
+}
+
+h2 {
+    text-align: center;
+}
+
+.tarea {
+    background-color: white;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.tarea button {
+    background-color: #606060;
+    border: none;
+    color: white;
+    padding: 3px 6px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.tarea .completado {
+    background-color: #606060;
+    cursor: default;
+    padding: 3px 6px;
+    font-size: 12px;
+}
+
+.tarea .completar {
+    margin: 2px;
+}
